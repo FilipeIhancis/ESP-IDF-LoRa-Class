@@ -1,12 +1,9 @@
 # ESP-IDF LoRa Class
 
-<div align="center">
-
 ![Espressif](https://img.shields.io/badge/espressif-E7352C.svg?style=for-the-badge&logo=espressif&logoColor=white)
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 
-</div>
 
 An ESP-IDF component for sending and receiving data using LoRa radios. Based on **[Arduino-LoRa](https://github.com/sandeepmistry/arduino-LoRa/blob/master)**.
 
@@ -31,22 +28,22 @@ The organization by object-oriented programming in C++ allows for better code mo
 | **SCK** | Pin used as the SCK SPI signal | 18 |
 | **CS** | LoRa NCS/SS pin | 15 |
 | **RST** | LoRa NRST/RESET pin | 16 |
-|
 
 </div>
 
 Configure the pins in **menuconfig** or use the `Lora.init(miso, mosi, sck, cs, rst)` method.
 
+
+###
+
 <div align="center">
-<img src="imgs/menuconfig.png" alt="loraconfig" style="width:500px;"/>
-<figcaption>ESP menuconfig</figcaption>
+<img src="imgs/menuconfig.png" alt="loraconfig" style="width:600px;"/>
 </div>
 
 ###
 
 <div align="center">
-<img src="imgs/lora-config.png" alt="loraconfig" style="width:500px;"/>
-<figcaption>Menu Lora Configuration</figcaption>
+<img src="imgs/lora-config.png" alt="loraconfig" style="width:600px;"/>
 </div>
 
 ###
@@ -77,10 +74,10 @@ See **[API.md](API.md)**.
 See **[examples folder](examples)**: Lora Sender and Lora Receiver.
 
 ### Sender COM Port
-<img src="imgs/sender.png" alt="sender" style="width:300px;"/>
+<img src="imgs/sender.png" alt="sender" style="width:400px;"/>
 
 ### Receiver COM Port
-<img src="imgs/receiver.png" alt="receiver" style="width:500px;"/>
+<img src="imgs/receiver.png" alt="receiver" style="width:600px;"/>
 
 ## Reference:
 
