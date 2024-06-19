@@ -154,7 +154,7 @@ LoRa.setPreambleLength(long length);    // Changes the preamble length
     |3| 15.6 |8 |125 | 
     |4| 20.8 |9 |250 |
     |5| 31.25 |10 |500 |
-    |
+    
     </div>
 
 - **``sf``**: Spreading Factor of the radio. Supported values are between ``6`` and ``12``. If a spreading factor of ``6`` is set, *implicit header* mode must be used to transmit and receive packets
